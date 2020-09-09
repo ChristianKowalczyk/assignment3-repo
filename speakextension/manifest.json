@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"name": "speakextension",
+	"minimum_chrome_version": "24.0.1307.0",
+	"version": "0.0.1",
+	"homepage_url": "http://www.columbia.edu/~cjk2159/",
+	"icons": {
+
+	},
+
+	"content_scripts": [
+		{"matches": [
+
+			"http://www.columbia.edu/~cjk2159/*"
+		],
+
+		"js": [
+				"scripts/jquery.min.js",
+				"scripts/reader.js"],
+				"css": ["css/reader.css"],
+				"run_at": "document_idle"}
+			]
+}
