@@ -12,6 +12,8 @@ $(document).ready(function() {
         }
     });
 
+    //Adding a comment for merging
+
     $("*:not(body)").hover(
         function(ev) {
 
